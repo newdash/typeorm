@@ -105,7 +105,8 @@ export abstract class AbstractSqliteDriver implements Driver {
         "boolean",
         "date",
         "time",
-        "datetime"
+        "datetime",
+        "enum"
     ];
 
     /**
